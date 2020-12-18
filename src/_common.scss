@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+@mixin displayFlexColumn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 @mixin marginleftsmall {
     margin-left: 10px;
 }
@@ -19,3 +27,34 @@
     border: 1px solid #304dae;
     border-radius: 5px;
 }
+
+@mixin buttonHover {
+    cursor: pointer;
+}
+
+@mixin sezioneProperty {
+    width: 50%;
+    // border: 2px solid blue;
+    padding: 20px;
+}
+
+@mixin buttonBlue {
+    margin: 18px 0;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: #304dae;
+    border: 1px solid #304dae;
+    border-radius: 5px;
+}
+
+// @mixin sectionGeneral {
+//     background-color: violet; //da cambiare
+//     width: 100%;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-around;
+//     align-content: center;
+//     align-items: center;
+// }

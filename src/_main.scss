@@ -1,0 +1,41 @@
+main{
+    min-height: calc(100vh - 380px);
+    @include displayFlexColumn;
+    background-color: red; //modificare
+
+    .sezione1{
+        // @import "sezioneUno";
+        // @include sectionGeneral;
+
+        padding: 40px;
+        width: 100%;
+        display: flex;
+        background-color: violet; //modificare
+
+        .sezionePropieta{
+            @include sezioneProperty;
+
+            .text{
+                text-align: right;
+                font-size: 1.4rem;
+                line-height: 4rem;
+
+                h1{
+                    font-size: 2.6rem;
+                }
+
+                button{
+                    @include buttonBlue;
+
+                    &:hover{
+                        @include buttonHover;
+                    }
+                }
+            }
+        }
+
+        img{
+            width: 80%;
+        }
+    }
+}

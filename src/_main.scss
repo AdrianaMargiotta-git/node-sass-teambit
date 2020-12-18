@@ -69,4 +69,35 @@ main{
         }
 
     }
+
+    .sezione3{
+        @include sectionGeneral;
+        background-color: goldenrod;
+
+        .row{
+            @include riga;
+
+            .cl{
+                @include flexColumnStart;
+                @include sezioneProperty;
+
+                img{
+                    width: 100%;
+                }
+
+                p{
+                    width: 40%;
+                }
+            }
+
+            .cl.sez3Text{
+
+                img{
+                    width: 50%;
+                    margin-top: 20px;
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
 }

@@ -160,6 +160,41 @@ main .sezione2 .listaImmagini img {
   height: 150px;
 }
 
+main .sezione3 {
+  width: 100%;
+  display: flex;
+  padding: 40px;
+  background-color: goldenrod;
+}
+
+main .sezione3 .row {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+}
+
+main .sezione3 .row .cl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding: 20px;
+}
+
+main .sezione3 .row .cl img {
+  width: 100%;
+}
+
+main .sezione3 .row .cl p {
+  width: 40%;
+}
+
+main .sezione3 .row .cl.sez3Text img {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
 footer {
   min-height: 300px;
   background-color: yellow;

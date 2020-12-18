@@ -1,3 +1,11 @@
+.line {
+  border-bottom: 2px solid grey;
+}
+
+.pb-160 {
+  padding-bottom: 160px;
+}
+
 header {
   text-align: center;
   height: 88px;
@@ -63,17 +71,17 @@ header .link button {
 main {
   min-height: calc(100vh - 380px);
   display: flex;
-  justify-content: center;
   align-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   background-color: red;
 }
 
 main .sezione1 {
-  padding: 40px;
   width: 100%;
   display: flex;
+  padding: 40px;
   background-color: violet;
 }
 
@@ -112,16 +120,17 @@ main .sezione1 img {
 }
 
 main .sezione2 {
-  padding: 40px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  padding: 40px;
+  display: flex;
   align-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
   background-color: greenyellow;
   font-size: 1.4rem;
-  line-height: 4rem;
+  line-height: 2rem;
   text-align: center;
 }
 
@@ -132,14 +141,23 @@ main .sezione2 .row {
   justify-content: center;
 }
 
+main .sezione2 img {
+  width: 22%;
+}
+
 main .sezione2 .listaImmagini {
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
 
+main .sezione2 .listaImmagini li {
+  margin-right: 40px;
+}
+
 main .sezione2 .listaImmagini img {
   width: 40%;
+  height: 150px;
 }
 
 footer {

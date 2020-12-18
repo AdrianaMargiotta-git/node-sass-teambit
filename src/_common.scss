@@ -1,0 +1,21 @@
+@mixin displayFlex {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+@mixin marginleftsmall {
+    margin-left: 10px;
+}
+
+@mixin buttonWhite {
+    margin: 18px 0;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #304dae;
+    background-color: #ffffff;
+    border: 1px solid #304dae;
+    border-radius: 5px;
+}

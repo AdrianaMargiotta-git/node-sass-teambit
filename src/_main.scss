@@ -4,9 +4,6 @@ main{
     background-color: red; //modificare
 
     .sezione1{
-        // @import "sezioneUno";
-        // @include sectionGeneral;
-
         padding: 40px;
         width: 100%;
         display: flex;
@@ -37,5 +34,61 @@ main{
         img{
             width: 80%;
         }
+    }
+
+    .sezione2{
+        padding: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: greenyellow; //da cambiare
+        font-size: 1.4rem;
+        line-height: 4rem;
+        text-align: center;
+
+        // .immagini{
+
+        //     padding: 14px 10px;
+        //     font-size: 1.4rem;
+        //     line-height: 0.9cm;
+        //     display: flex;
+        //     justify-content: space-around;
+        //     margin-bottom: 40px;
+
+        //     .immaginiSingle{
+        //         flex-basis: calc(100% / 3);
+        //         margin: 10px;
+
+        //         img{
+        //             margin-bottom: 10px;
+        //             // width: 100px;
+        //             // height: 100px;
+        //             width: 40%;
+        //         }
+
+        //         p{
+        //             margin-top: 20px;
+        //         }
+        //     }
+        // }
+
+        .row{
+            @include riga;
+            justify-content: center;
+        }
+
+        .listaImmagini{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+
+            img{
+                width: 40%;
+            }
+        }
+
     }
 }

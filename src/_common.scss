@@ -5,6 +5,12 @@
     align-items: center;
 }
 
+@mixin riga {
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+}
+
 @mixin displayFlexColumn {
     display: flex;
     justify-content: center;

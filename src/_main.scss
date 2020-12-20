@@ -3,10 +3,11 @@ main{
     @include displayFlexColumn;
     justify-content: center;
     background-color: red; //modificare
+    color: #040F0F;
 
     .sezione1{
         @include sectionGeneral;
-        background-color: violet; //modificare
+        background-color: #4466D4;
 
         .sezionePropieta{
             @include sezioneProperty;
@@ -39,7 +40,7 @@ main{
         @include sectionGeneral;
         @include displayFlexColumn;
         justify-content: space-around;
-        background-color: greenyellow; //da cambiare
+        background-color: #0E14EE;
         font-size: 1.4rem;
         line-height: 2rem;
         text-align: center;
@@ -73,7 +74,7 @@ main{
     .sezione3{
         @include sectionGeneral;
         flex-direction: column;
-        background-color: goldenrod;
+        background-color: #4466D4;
 
         .row{
             @include riga;
@@ -90,14 +91,12 @@ main{
                     width: 80%;
                     font-size: 2rem;
                     font-weight: 0.5rem;
-                    color: #58402c;
                 }
 
                 p{
                     width: 80%;
                     font-size: 1.6rem;
                     font-weight: 0.5rem;
-                    color: #58402c;
                 }
 
                 a{
@@ -126,8 +125,7 @@ main{
 
     .sezione4{
         @include displayFlexColumn;
-        background-color: green;
-        color: #58402c;
+        background-color: #0E14EE;
         padding-bottom: 50px;
 
         h2{
@@ -167,11 +165,13 @@ main{
 
         a{
             text-decoration: none;
-            color: #58402c;
+            color: #040F0F;
             font-size: 1.4rem;
 
             &:hover{
                 cursor: pointer;
+                color: #7FFF00;
+                border-bottom: 2px dotted #F400A1;
             }
         }
     }

@@ -1,24 +1,22 @@
 header{
     text-align: center;
     height: 88px;
-    background-color: #7FFFD4; //da cambiare con #ffffff
+    background-color: $colorViola;
     font-size: 1.4rem;
     @include displayFlex;
     border-bottom: 2px solid #C0C0C0;
     color: #4e3d1e;
 
     .text{
-        // color: #FF6600;
         @include displayFlex;
         font-size: 2rem;
         
-        h3{
-            @include marginleftsmall;
+        img{
+            width: 200px;
         }
     }
 
     .link{
-        // background-color: #FBCEB1;
         display: flex;
         align-items: center;
 
@@ -31,7 +29,7 @@ header{
 
                 a{
                     text-decoration: none;
-                    color: #293133;
+                    color: #040F0F;
 
                     &:hover{
                         color: #7FFF00;

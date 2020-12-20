@@ -9,7 +9,7 @@
 header {
   text-align: center;
   height: 88px;
-  background-color: #7FFFD4;
+  background-color: #7F14D4;
   font-size: 1.4rem;
   display: flex;
   justify-content: space-around;
@@ -27,8 +27,8 @@ header .text {
   font-size: 2rem;
 }
 
-header .text h3 {
-  margin-left: 10px;
+header .text img {
+  width: 200px;
 }
 
 header .link {
@@ -47,7 +47,7 @@ header .link ul li {
 
 header .link ul li a {
   text-decoration: none;
-  color: #293133;
+  color: #040F0F;
 }
 
 header .link ul li a:hover {
@@ -76,19 +76,19 @@ main {
   flex-direction: column;
   justify-content: center;
   background-color: red;
+  color: #040F0F;
 }
 
 main .sezione1 {
   width: 100%;
   display: flex;
   padding: 40px;
-  background-color: violet;
+  background-color: #4466D4;
 }
 
 main .sezione1 .sezionePropieta {
   width: 50%;
   padding: 20px;
-  border: 2px solid red;
 }
 
 main .sezione1 .sezionePropieta .text {
@@ -129,7 +129,7 @@ main .sezione2 {
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  background-color: greenyellow;
+  background-color: #0E14EE;
   font-size: 1.4rem;
   line-height: 2rem;
   text-align: center;
@@ -166,7 +166,7 @@ main .sezione3 {
   display: flex;
   padding: 40px;
   flex-direction: column;
-  background-color: goldenrod;
+  background-color: #4466D4;
 }
 
 main .sezione3 .row {
@@ -181,7 +181,6 @@ main .sezione3 .row .cl {
   align-items: flex-start;
   width: 50%;
   padding: 20px;
-  border: 2px solid red;
 }
 
 main .sezione3 .row .cl img {
@@ -192,14 +191,12 @@ main .sezione3 .row .cl h3 {
   width: 80%;
   font-size: 2rem;
   font-weight: 0.5rem;
-  color: #58402c;
 }
 
 main .sezione3 .row .cl p {
   width: 80%;
   font-size: 1.6rem;
   font-weight: 0.5rem;
-  color: #58402c;
 }
 
 main .sezione3 .row .cl a {
@@ -225,8 +222,7 @@ main .sezione4 {
   align-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: green;
-  color: #58402c;
+  background-color: #0E14EE;
   padding-bottom: 50px;
 }
 
@@ -274,17 +270,19 @@ main .sezione4 button:hover {
 
 main .sezione4 a {
   text-decoration: none;
-  color: #58402c;
+  color: #040F0F;
   font-size: 1.4rem;
 }
 
 main .sezione4 a:hover {
   cursor: pointer;
+  color: #7FFF00;
+  border-bottom: 2px dotted #F400A1;
 }
 
 footer {
   min-height: 300px;
-  background-color: yellow;
+  background-color: #4466D4;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -293,12 +291,11 @@ footer {
   padding-top: 50px;
   font-size: 1.3rem;
   line-height: 0.8cm;
-  color: #58402c;
+  color: #040F0F;
 }
 
 footer .sx {
   width: 30%;
-  background-color: aqua;
   display: flex;
   padding: 8px;
 }
@@ -310,14 +307,12 @@ footer .sx img {
 
 footer .dx {
   width: 70%;
-  background-color: aquamarine;
   display: flex;
 }
 
 footer .dx .flexdis {
   display: flex;
   flex-direction: column;
-  background-color: violet;
 }
 
 footer .dx .flexdis ul {
@@ -329,11 +324,13 @@ footer .dx .flexdis ul {
 
 footer .dx .flexdis ul a {
   text-decoration: none;
-  color: #58402c;
+  color: #040F0F;
 }
 
 footer .dx .flexdis ul a:hover {
   cursor: pointer;
+  color: #7FFF00;
+  border-bottom: 2px dotted #F400A1;
 }
 
 * {

@@ -220,6 +220,57 @@ main .sezione3 .row .cl.sez3TextEnd {
   align-items: flex-end;
 }
 
+main .sezione4 {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: green;
+  color: #58402c;
+}
+
+main .sezione4 h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+main .sezione4 .sms {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 60%;
+  padding: 10px;
+}
+
+main .sezione4 .sms p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+main .sezione4 .sms .autori {
+  display: flex;
+  align-items: center;
+}
+
+main .sezione4 .sms .autori img {
+  width: 10%;
+  margin-right: 10px;
+}
+
+main .sezione4 button {
+  margin: 18px 0;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: #304dae;
+  border: 1px solid #304dae;
+  border-radius: 5px;
+}
+
+main .sezione4 button:hover {
+  cursor: pointer;
+}
+
 footer {
   min-height: 300px;
   background-color: yellow;

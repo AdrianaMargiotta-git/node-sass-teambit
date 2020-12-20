@@ -123,4 +123,46 @@ main{
             }
         }
     }
+
+    .sezione4{
+        @include displayFlexColumn;
+        background-color: green;
+        color: #58402c;
+
+        h2{
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+
+        .sms{
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            width: 60%;
+            padding: 10px;
+
+            p{
+                font-size: 1.4rem;
+                line-height: 1.8rem;
+            }
+
+            .autori{
+                display: flex;
+                align-items: center;
+
+                img{
+                    width: 10%;
+                    margin-right: 10px;
+                }
+            }
+        }
+        
+        button{
+            @include buttonBlue;
+
+            &:hover{
+                @include buttonHover;
+            }
+        }
+    }
+    
 }

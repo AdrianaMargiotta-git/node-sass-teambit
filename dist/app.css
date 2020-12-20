@@ -88,6 +88,7 @@ main .sezione1 {
 main .sezione1 .sezionePropieta {
   width: 50%;
   padding: 20px;
+  border: 2px solid red;
 }
 
 main .sezione1 .sezionePropieta .text {
@@ -164,6 +165,7 @@ main .sezione3 {
   width: 100%;
   display: flex;
   padding: 40px;
+  flex-direction: column;
   background-color: goldenrod;
 }
 
@@ -179,20 +181,43 @@ main .sezione3 .row .cl {
   align-items: flex-start;
   width: 50%;
   padding: 20px;
+  border: 2px solid red;
 }
 
 main .sezione3 .row .cl img {
   width: 100%;
 }
 
+main .sezione3 .row .cl h3 {
+  width: 80%;
+  font-size: 2rem;
+  font-weight: 0.5rem;
+  color: #58402c;
+}
+
 main .sezione3 .row .cl p {
-  width: 40%;
+  width: 80%;
+  font-size: 1.6rem;
+  font-weight: 0.5rem;
+  color: #58402c;
+}
+
+main .sezione3 .row .cl a {
+  text-decoration: none;
+}
+
+main .sezione3 .row .cl a:hover {
+  cursor: pointer;
 }
 
 main .sezione3 .row .cl.sez3Text img {
   width: 50%;
   margin-top: 20px;
   margin-left: 25px;
+}
+
+main .sezione3 .row .cl.sez3TextEnd {
+  align-items: flex-end;
 }
 
 footer {

@@ -72,6 +72,7 @@ main{
 
     .sezione3{
         @include sectionGeneral;
+        flex-direction: column;
         background-color: goldenrod;
 
         .row{
@@ -85,8 +86,26 @@ main{
                     width: 100%;
                 }
 
+                h3{
+                    width: 80%;
+                    font-size: 2rem;
+                    font-weight: 0.5rem;
+                    color: #58402c;
+                }
+
                 p{
-                    width: 40%;
+                    width: 80%;
+                    font-size: 1.6rem;
+                    font-weight: 0.5rem;
+                    color: #58402c;
+                }
+
+                a{
+                    text-decoration: none;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
                 }
             }
 
@@ -97,6 +116,10 @@ main{
                     margin-top: 20px;
                     margin-left: 25px;
                 }
+            }
+
+            .cl.sez3TextEnd{
+                align-items: flex-end;
             }
         }
     }
